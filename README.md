@@ -136,17 +136,17 @@ POST /api/Todo
 
 GET /api/Todo
 
-📄 Documentation Included
+## Testing
 
-This project includes:
+This solution includes an NUnit test project:
 
-README.md – Overview, structure, and how to start
+- `Application.Tests` – unit tests for the Application layer
 
-specs.md – Functional specifications and API endpoints
+To run the tests:
 
-CHANGELOG.md – Version history
+```bash
+dotnet test
 
-These documents make the project easy to understand for new developers, future you, or teammates.
 
-🔮 Future Improv
+
 
